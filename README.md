@@ -1,3 +1,7 @@
+This drupal fork contains an example CI setup to run Phan and emit issues.
+Post-processing to remove pre-existing issues (Or blacklisting the most common issues before fixing them) would be needed to get this passing.
+
+See the job log of [![Build Status](https://travis-ci.org/TysonAndre/drupal.svg?branch=8.5.x)](https://travis-ci.org/TysonAndre/drupal) for raw phan output.
 
 CONTENTS OF THIS FILE
 ---------------------
