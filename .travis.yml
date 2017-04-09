@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 7.2
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_install:
+  - pecl install -f ast-0.1.6
+  - phpenv config-rm xdebug.ini
+  - composer validate
+
+install:
+  - composer --ignore-platform-reqs --prefer-dist install
+
+script:
+  - vendor/bin/phan
