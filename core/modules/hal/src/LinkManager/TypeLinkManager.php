@@ -5,6 +5,7 @@ namespace Drupal\hal\LinkManager;
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
+use Drupal\Core\Config\Entity\ConfigEntityInterface;
 use Drupal\Core\Entity\EntityTypeBundleInfoInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Symfony\Component\HttpFoundation\RequestStack;

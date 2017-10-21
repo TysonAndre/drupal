@@ -1,5 +1,7 @@
 <?php
 
+use Symfony\Component\Routing\Exception\RouteNotFoundException;
+
 /**
  * @file
  * Hooks provided by the Configuration Translation module.

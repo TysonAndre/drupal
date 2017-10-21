@@ -394,7 +394,7 @@ class ConfigImporter {
     //  0 0 ban
     //  0 1 actions
     // @todo Move this sorting functionality to the extension system.
-    array_multisort(array_values($module_list), SORT_ASC, array_keys($module_list), SORT_DESC, $module_list);
+    array_multisort($module_list, SORT_ASC, array_keys($module_list), SORT_DESC, $module_list);
     $this->extensionChangelist['module']['uninstall'] = array_intersect(array_keys($module_list), $uninstall);
 
     // Determine which modules to install.

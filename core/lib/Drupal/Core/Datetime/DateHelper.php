@@ -514,7 +514,7 @@ class DateHelper {
    * @param mixed $date
    *   (optional) A DrupalDateTime object or a date string.
    *   Defaults to NULL, which means use the current date.
-   * @param string $abbr
+   * @param bool $abbr
    *   (optional) Whether to return the abbreviated name for that day.
    *   Defaults to TRUE.
    *

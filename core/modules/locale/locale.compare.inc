@@ -173,7 +173,7 @@ function locale_translation_default_translation_server() {
  *
  * @param array $projects
  *   Array of project names to check. Defaults to all translatable projects.
- * @param string $langcodes
+ * @param string[] $langcodes
  *   Array of language codes. Defaults to all translatable languages.
  *
  * @return array
@@ -204,7 +204,7 @@ function locale_translation_check_projects($projects = [], $langcodes = []) {
  *
  * @param array $projects
  *   Array of project names to check. Defaults to all translatable projects.
- * @param string $langcodes
+ * @param string[] $langcodes
  *   Array of language codes. Defaults to all translatable languages.
  */
 function locale_translation_check_projects_batch($projects = [], $langcodes = []) {

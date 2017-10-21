@@ -337,7 +337,7 @@ trait AssertContentTrait {
    *
    * @param string $href
    *   The full or partial value of the 'href' attribute of the anchor tag.
-   * @param string $index
+   * @param int $index
    *   Link position counting from zero.
    * @param string $message
    *   (optional) A message to display with the assertion. Do not translate

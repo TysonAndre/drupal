@@ -492,7 +492,7 @@ class SearchQuery extends SelectExtender {
    *   measure of keyword relevance between 0 and 1.
    * @param array $arguments
    *   Query arguments needed to provide values to the score expression.
-   * @param float $multiply
+   * @param float|false $multiply
    *   If set, the score is multiplied with this value. However, all scores
    *   with multipliers are then divided by the total of all multipliers, so
    *   that overall, the normalization is maintained.

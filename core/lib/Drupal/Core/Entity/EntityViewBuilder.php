@@ -52,7 +52,7 @@ class EntityViewBuilder extends EntityHandlerBase implements EntityHandlerInterf
   /**
    * The language manager.
    *
-   * @param \Drupal\Core\Language\LanguageManagerInterface $language_manager
+   * @var \Drupal\Core\Language\LanguageManagerInterface $language_manager
    */
   protected $languageManager;
 
@@ -68,7 +68,7 @@ class EntityViewBuilder extends EntityHandlerBase implements EntityHandlerInterf
    *
    * @see \Drupal\Core\Entity\EntityViewBuilder::getSingleFieldDisplay()
    *
-   * @param \Drupal\Core\Entity\Display\EntityViewDisplayInterface[]
+   * @var \Drupal\Core\Entity\Display\EntityViewDisplayInterface[]
    */
   protected $singleFieldDisplays;
 
